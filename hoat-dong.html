@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bang Wanted - Hoạt Động</title>
+    <link rel="shortcut icon" href="images/logo-w.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="header-menu" class="menu-bar">
+                <div id="header-menu-logo">
+                    <a href="index.html"><img src="images/logo-w-menu.png" alt="logo w menu"></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <a href="#" style="border-color: #FFF !important;">HOẠT ĐỘNG</a>
+                    </li>
+                    <li>
+                        <a href="su-kien.html">SỰ KIỆN</a>
+                    </li>
+                    <li>
+                        <a href="cua-hang.html">CỬA HÀNG</a>
+                    </li>
+                </ul>
+                <div id="menu-button">
+                    <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
+                        MENU
+                    </a>
+                </div>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("header-menu");
+                        if (x.className === "menu-bar") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "menu-bar";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <div id="content">
+            <div>
+                <div class="space"></div>
+                <div class="content-title">
+                    Boss Diệt Môn
+                    <hr>
+                </div>
+                <div class="content-1">
+                    <p>
+                        - Diễn ra vào <b>7h mỗi tối từ T2 đến T7</b> và ai cũng có thể tham gia, nếu <b>phần thưởng 1.0</b> thì Boss sẽ được bù vào ngày hôm sau. <br> - Tất cả không phòng thủ (Def) Boss, chờ <b>Độ phòng ngự căn cứ: 0/100</b> rồi mới đánh
+                        quái lấy vàng khóa.
+                    </p>
+                    <div class="content-img"><img style="width: 75%;" src="images/bossdietmon.gif" alt="boss diet mon"></div>
+                </div>
+                <div class="space"></div>
+                <div class="content-title">
+                    Boss Hoàng Lăng
+                    <hr>
+                </div>
+                <div class="content-1">
+                    <p>
+                        - Diễn ra vào <b>7h mỗi tối T2</b> và ai cũng có thể tham gia.
+                    </p>
+                    <div class="content-img"><img style="width: 100%;" src="images/maphoanglang.jpg" alt="map hoang lang"></div>
+                    <p>
+                        - Anh Em ai muốn lấy danh hiệu thì nhảy ở <b style="color:#9d0000;">số 13</b>, không thì tập trung ở <b>Thập Yêu Phòng</b> <b style="color:#9d0000;">số 14</b> (nên bật x2 vì rất nhiều EXP).<br> - Sau khi đánh xong tập trung qua
+                        <b style="color:#9d0000;">số 12</b> mở hộp, mở xong chờ hết thời gian phó bản để nhận thưởng.
+                    </p>
+                    <div class="content-img"><img style="width: 50%;" src="images/bossnhanthuong.png" alt="boss nhan thuong"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="images/bosshoanglang.png" alt="su kien solo">
+            <p>Copyright© 2020 ToxinBE</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="js/topbutton.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            //Top Button
+            $.topbutton({
+                html: "<i></i>", //String
+                css: "width:50px; height:50px; background-image: url(../images/backtotop.png);color:#ededed; border: none; font-size:18px;border-radius:0px;", //String
+                scrollAndShow: true, //Boolean
+                scrollSpeed: 750 //Number
+            });
+
+        });
+    </script>
+</body>
+
+</html>

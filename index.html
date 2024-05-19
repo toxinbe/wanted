@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bang Wanted - Trang Chủ</title>
+    <link rel="shortcut icon" href="images/logo-w.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        #header-menu {
+            background-color: rgba(0, 0, 0, 0);
+            margin-top: 0.5%;
+            animation-name: header-menu-bar!important;
+            animation-duration: 1.5s!important;
+        }
+        
+        @keyframes header-menu-bar {
+            from {
+                height: 0px;
+            }
+            to {
+                height: 70px;
+            }
+        }
+        
+        @media screen and (max-width: 730px) {
+            @keyframes header-menu-bar {
+                from {
+                    height: 0px;
+                }
+                to {
+                    height: 50px;
+                }
+            }
+        }
+        
+        .space {
+            animation-name: content-space!important;
+            animation-duration: 3s!important;
+        }
+        
+        @keyframes content-space {
+            0% {
+                height: 750px;
+            }
+            45% {
+                height: 750px;
+            }
+            85% {
+                height: 84px;
+            }
+        }
+        
+        @media screen and (max-width: 1024px) {
+            @keyframes content-space {
+                0% {
+                    height: 2000px;
+                }
+                45% {
+                    height: 2000px;
+                }
+                100% {
+                    height: 60px;
+                }
+            }
+        }
+        
+        .menu-bar.responsive {
+            background-color: rgba(35, 35, 35, 0.9)!important;
+        }
+        
+        .menu-bar.responsive #header-menu-logo {
+            display: block!important;
+        }
+        
+        #container,
+        #header-menu-logo {
+            display: none;
+        }
+    </style>
+    <script>
+        function loadPage() {
+            var load = document.getElementById("load-page");
+            var container = document.getElementById("container");
+            load.style.display = "none";
+            container.style.display = "block";
+        }
+    </script>
+</head>
+
+<body onscroll="thayDoiMenu()">
+    <div id="load-page"><img id="load-gif" src="images/load.gif"></div>
+    <img class="load" src="images/background.png" width="0%">
+    <img class="load" src="images/backtotop.png" width="0%">
+    <img class="load" src="images/kiemtradanhthiep.png" width="0%">
+    <img class="load" src="images/logo-w-menu.png" width="0%">
+    <img class="load" src="images/logo-w.png" width="0%">
+    <img class="load" src="images/logo.png" width="0%">
+    <img class="load" src="images/thanhvien.png" width="0%">
+    <img class="load" src="images/tv-danhthiep-be.jpg" width="0%">
+    <img class="load" src="images/tv-danhthiep-conando.jpg" width="0%">
+    <img class="load" src="images/tv-danhthiep-dat.jpg" width="0%">
+    <img class="load" src="images/tv-danhthiep-gio.jpg" width="0%">
+    <img class="load" src="images/tv-danhthiep-my.jpg" width="0%">
+    <img class="load" src="images/tv-danhthiep-slegna.jpg" width="0%">
+    <img class="load" src="images/tv-danhthiep-thien.jpg" width="0%">
+    <img class="load" src="images/tv-ngoaihinh-be.png" width="0%">
+    <img class="load" src="images/tv-ngoaihinh-dat.png" width="0%">
+    <img class="load" src="images/tv-ngoaihinh-gio.png" width="0%">
+    <img class="load" src="images/tv-ngoaihinh-my.png" width="0%">
+    <img class="load" src="images/tv-ngoaihinh-slegna.png" width="0%">
+    <img class="load" src="images/tv-ngoaihinh-thien.png" width="0%" onload="loadPage()">
+    <div id="container">
+        <div id="header">
+            <div id="header-banner"><img src="images/background.png" alt="background"> </div>
+            <div id="header-title">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <div><span>Discord: <a target="_blank" href="https://discord.gg/NcDWjWF8">Room Bang Wanted</a></span></div>
+            </div>
+            <div id="header-menu" class="menu-bar">
+                <div id="header-menu-logo">
+                    <a href="index.html"><img src="images/logo-w-menu.png" alt="logo w menu"></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" style="border-color: #FFF !important;">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <a href="hoat-dong.html">HOẠT ĐỘNG</a>
+                    </li>
+                    <li>
+                        <a href="su-kien.html">SỰ KIỆN</a>
+                    </li>
+                    <li>
+                        <a href="cua-hang.html">CỬA HÀNG</a>
+                    </li>
+                </ul>
+                <div id="menu-button">
+                    <a href="javascript:void(0);" class="menu-icon" onclick="menuButton()">
+                        MENU
+                    </a>
+                </div>
+            </div>
+            <div id="header-slogan">
+                <p>Bang Tuyển Mem 6x 7x Hòa Đồng, Vui Vẻ, Chơi Lâu Dài, Chăm Online Discord!!!</p>
+            </div>
+        </div>
+        <div id="content">
+            <div>
+                <div class="space"></div>
+                <div class="content-title">
+                    Thông Tin Bang
+                    <hr>
+                </div>
+                <div class="content-1">
+                    <p>
+                        - Bang <img class="content-logo" src="images/logo.png" alt="logo in content"> được lập bởi <b>[N]ife</b> và các thành viên nồng cốt. Anh Em chơi hòa đồng, vui vẻ và <b>bắt buộc vào 7h tối mỗi ngày</b> phải thực hiện các yêu cầu
+                        sau: <br>
+                    </p>
+                    <ul>
+                        <li>
+                            <b>Online Discord</b> (<a target="_blank" href="https://discord.gg/NcDWjWF8">Room Bang Wanted</a>).
+                        </li>
+                        <li>
+                            <b>Nhận Phúc Lợi</b> (để nhận EXP + Cống Hiến Bang).
+                        </li>
+                        <li>
+                            <b>Nhiệm Vụ Bắt Cóc</b> (3 lần 1 ngày, bắt buộc phải làm - <a target="_blank" href="https://www.youtube.com/watch?v=mk2_RhhAa5E">Xem thêm</a>).
+                        </li>
+                        <li>
+                            <b>Boss Diệt Môn</b> + <b>Boss Hoàng Lăng</b> (<a href="hoat-dong.html">Hoạt Động</a>).
+                        </li>
+                        <li>
+                            <b>Cướp Tiêu</b> (3 lần 1 ngày, lần 4 nhận được 50% phần thưởng).
+                        </li>
+                        <li>
+                            <b>Mật Thám</b> (khi trả tiêu gần đó có NPC Mật Thám - <a target="_blank" href="https://www.youtube.com/watch?v=iKYT_PqZbNo">Xem thêm</a>).
+                        </li>
+                    </ul>
+                    <p>
+                        - Vào tối <b>T7, CN</b> mỗi tuần có thể sẽ có <b>Event</b> để Anh Em giải trí, có thưởng (<a href="su-kien.html">Sự Kiện</a>).<br>- Bang có một <b>Shop Áo</b> và toàn bộ lợi nhuận được sử dụng cho giải thưởng của <b>Event</b> mỗi
+                        tuần nên mong Anh Em ủng hộ nhiệt tình (<a href="cua-hang.html">Cửa Hàng</a>).<br> - Link tải <b>Auto Unibot</b> cho ai cần: <a href="https://unibot.net/threads/unique-auto-ti%E1%BA%BFu-ng%E1%BA%A1o-giang-h%E1%BB%93-swordsman-online-tmh-1-5-8-hotfix-3-1-ng%C3%A0y-07-11-2020.8281/">setup Unique Auto TNGH</a>
+                        <br><br><br><br><br><b>Lưu ý:</b><br> - <b>Không PK</b> người cùng Bang hoặc cùng Liên Minh, mọi mâu thuẫn có thể Online Discord Bang Chủ sẽ giải quyết.<br> - Mỗi ngày có rất nhiều hoạt động để tăng Cống Hiến Bang, <b>nếu mỗi
+                            ngày ít hơn 100 Cống Hiến sẽ bị Đuổi Khỏi Bang</b>.
+                        <br> - Để tránh trường hợp bị lừa, nên <b>Kiểm Tra Danh Thiếp</b> trước khi <b>Giao dịch</b>, <b>Mua</b> - <b>Bán</b>, <b>Mượn</b> - <b>cho Mượn</b>,... và đối chiếu thông tin thành viên trong Bang (<a href="#thanhvien">Thành Viên</a>).
+                    </p>
+                    <div class="content-img"><img img style="width: 50%;" src="images/kiemtradanhthiep.png" alt="kiem tra danh thiep" /></div>
+                </div>
+                <div class="space" id="thanhvien"></div>
+                <div class="content-title">
+                    Thành Viên Bang
+                    <hr>
+                </div>
+                <div class="content-1">
+                    <table id="table-thanhvien">
+                        <tr style="background-color: #353535;color:#ededed;font-weight: bold;">
+                            <td class="table-tv-ten">Tên <br> (Chức vụ)</td>
+                            <td>Danh Thiếp</td>
+                            <td>Ngoại Hình</td>
+                        </tr>
+                        <tr>
+                            <td class="table-tv-ten"><b>Đạt</b><br><i>(Thủ lĩnh Sơn Trại)</i></td>
+                            <td class="table-tv-danhthiep"><br><img src="images/tv-danhthiep-dat.jpg" alt="dat" /></td>
+                            <td class="table-tv-ngoaihinh"><br><img src="images/tv-ngoaihinh-dat.png" /></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-tv-ten"><b>My</b><br><i>(Thủ lĩnh Sơn Trại Bạn Đời)</i></td>
+                            <td class="table-tv-danhthiep"><br><img src="images/tv-danhthiep-my.jpg" alt="my" /></td>
+                            <td class="table-tv-ngoaihinh"><br><img src="images/tv-ngoaihinh-my.png" /></td>
+                        </tr>
+                        <tr>
+                            <td class="table-tv-ten"><b>Thiện</b><br><i>(Nhị Đương Gia)</i></td>
+                            <td class="table-tv-danhthiep"><br><img src="images/tv-danhthiep-thien.jpg" alt="thien" /></td>
+                            <td class="table-tv-ngoaihinh"><br><img src="images/tv-ngoaihinh-thien.png" /></td>
+                        </tr>
+                        <tr>
+                            <td class="table-tv-ten"><b>Slegna</b><br><i>(Nhị Đương Gia Bạn Đời)</i></td>
+                            <td class="table-tv-danhthiep"><br><img src="images/tv-danhthiep-slegna.jpg" alt="slegna" /></td>
+                            <td class="table-tv-ngoaihinh"><br><img src="images/tv-ngoaihinh-slegna.png" /></td>
+                        </tr>
+                        <tr>
+                            <td class="table-tv-ten"><b>Gió</b><br><i>(Hữu Quân Sư)</i></td>
+                            <td class="table-tv-danhthiep"><br><img src="images/tv-danhthiep-gio.jpg" alt="gio" /></td>
+                            <td class="table-tv-ngoaihinh"><br><img src="images/tv-ngoaihinh-gio.png" /></td>
+                        </tr>
+                        <tr>
+                            <td class="table-tv-ten"><b>Be</b><br><i>(Sơn Lộ Phỉ Thủ)</i></td>
+                            <td class="table-tv-danhthiep"><br><img src="images/tv-danhthiep-be.jpg" alt="be" /></td>
+                            <td class="table-tv-ngoaihinh"><br><img src="images/tv-ngoaihinh-be.png" /></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="images/thanhvien.png" alt="su kien solo">
+            <p>Copyright© 2020 ToxinBE</p>
+        </div>
+    </div>
+    <img class="load" src="images/bossdietmon.gif" width="0%">
+    <img class="load" src="images/bosshoanglang.png" width="0%">
+    <img class="load" src="images/bossnhanthuong.png" width="0%">
+    <img class="load" src="images/comingsoon.png" width="0%">
+    <img class="load" src="images/cuahang.png" width="0%">
+    <img class="load" src="images/item-htp.png" width="0%">
+    <img class="load" src="images/item-mcxl.png" width="0%">
+    <img class="load" src="images/item-tts.png" width="0%">
+    <img class="load" src="images/lichthidau.png" width="0%">
+    <img class="load" src="images/maphoanglang.jpg" width="0%">
+    <img class="load" src="images/solo.png" width="0%">
+    <img class="load" src="images/cuahang/ss1/den-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss1/den-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss1/trang-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss1/trang-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/hodie/den-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/hodie/den-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/hodie/trang-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/hodie/trang-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/tee/den-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/tee/den-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/tee/trang-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss2/tee/trang-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/hodie/do-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/hodie/do-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/hodie/hong-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/hodie/hong-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/tee/do-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/tee/do-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/tee/hong-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/tee/hong-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/polo/do-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/polo/do-truoc.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/polo/hong-sau.png" width="0%">
+    <img class="load" src="images/cuahang/ss3/polo/hong-truoc.png" width="0%">
+    <iframe class="load" src="https://challonge.com/vi/nlx9jlpv/module" width="100%" height="565" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+    <video class="load" autoplay muted width="100%" controls>
+        <source  src="media/sukien.mp4" type="video/mp4">           
+    </video>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="js/topbutton.min.js"></script>
+    <script>
+        function thayDoiMenu() {
+            var x = document.getElementById("header-menu");
+            var xLogo = document.getElementById("header-menu-logo");
+            if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
+                x.style.backgroundColor = "rgba(35, 35, 35, 0.9)";
+                x.style.marginTop = "-6px";
+                xLogo.style.display = "block";
+            } else {
+                x.style.backgroundColor = "rgba(0, 0, 0, 0)";
+                x.style.marginTop = "0.5%";
+                xLogo.style.display = "none";
+            }
+        }
+
+        function menuButton() {
+            var x = document.getElementById("header-menu");
+            if (x.className == "menu-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu-bar";
+            }
+        }
+        $(document).ready(function() {
+            //Top Button
+            $.topbutton({
+                html: "<i></i>", //String
+                css: "width:50px; height:50px; background-image: url(../images/backtotop.png);color:#ededed; border: none; font-size:18px;border-radius:0px;", //String
+                scrollAndShow: true, //Boolean
+                scrollSpeed: 750 //Number
+            });
+        });
+    </script>
+</body>
+
+</html>

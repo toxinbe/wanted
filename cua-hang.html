@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bang Wanted - Cửa Hàng</title>
+    <link rel="shortcut icon" href="images/logo-w.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .content-1 {
+            background-color: #ccc;
+            border: 0.5rem solid #353535;
+            padding: 0px 15px;
+        }
+        
+        .content-title>hr {
+            margin: 1% 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="header-menu" class="menu-bar">
+                <div id="header-menu-logo">
+                    <a href="index.html"><img src="images/logo-w-menu.png" alt="logo w menu"></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <a href="hoat-dong.html">HOẠT ĐỘNG</a>
+                    </li>
+                    <li>
+                        <a href="su-kien.html">SỰ KIỆN</a>
+                    </li>
+                    <li>
+                        <a href="#" style="border-color: #FFF !important;">CỬA HÀNG</a>
+                    </li>
+                </ul>
+                <div id="menu-button">
+                    <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
+                        MENU
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div style="margin: 0% 20%;">
+                <div class="space"></div>
+                <div class="content-title" id="allitems">
+                    Wanted Shop
+                    <hr>
+                </div>
+                <div class="cuahang-title" style="margin-top: 3%!important;">
+                    <a href="#allitems">
+                        <h3>All Items</h3>
+                    </a>
+                </div>
+                <ul class="pro-ul">
+                    <li>
+                        <div class="pro-box">
+                            <a href="#allitems">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss3/hodie/do-truoc.png">
+                            <a href="#allitems">Wanted Hodie SS-III</a>
+                            <p>350.000<sup>đ</sup></p>
+                            <button id="allitems0-btn" type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <!-- The Modal -->
+                    <div id="allitems0-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="slide-show">
+                                <div class="mySlides0">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/hodie/do-truoc.png">
+                                </div>
+
+                                <div class="mySlides0">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/hodie/do-sau.png">
+                                </div>
+
+                                <div class="mySlides0">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/hodie/hong-truoc.png">
+                                </div>
+
+                                <div class="mySlides0">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/hodie/hong-sau.png">
+                                </div>
+                                <a class="prev" onclick="plusSlides0(-1)">❮</a>
+                                <a class="next" onclick="plusSlides0(1)">❯</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <img class="demo0 cursor column-img" src="images/cuahang/ss3/hodie/do-truoc.png" onclick="currentSlide0(1)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo0 cursor column-img" src="images/cuahang/ss3/hodie/do-sau.png" onclick="currentSlide0(2)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo0 cursor column-img" src="images/cuahang/ss3/hodie/hong-truoc.png" onclick="currentSlide0(3)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo0 cursor column-img" src="images/cuahang/ss3/hodie/hong-sau.png" onclick="currentSlide0(4)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pro-content">
+                                <h1><a href="#allitems">Wanted Hodie SS-III</a></h1>
+                                <p class="pro-brand">Thương hiệu: <a href="cua-hang.html">Wanted®</a>
+                                    <span>Tình trạng: <span class="pro-status">Còn hàng</span></span>
+                                </p>
+                                <span class="pro-price">350.000<sup>đ</sup></span>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Màu sắc</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color0" value="ĐỎ" checked=""><label>ĐỎ</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color0" value="HỒNG"><label>HỒNG</label></div>
+                                </div>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Size</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size0" value="S" checked=""><label>S</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size0" value="M"><label>M</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size0" value="L"><label>L</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size0" value="XL"><label>XL</label></div>
+                                </div>
+                                <div>
+                                    <div class="pro-option-number">
+                                        <input type="number" value="1">
+                                    </div>
+                                    <div class="pro-option-buy">
+                                        <button type="button" onclick="alert('Thêm vào giỏ hàng thành công!')">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#allitems">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss3/polo/hong-truoc.png">
+                            <a href="#allitems">Wanted Polo SS-III</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <button id="allitems1-btn" type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <!-- The Modal -->
+                    <div id="allitems1-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="slide-show">
+                                <div class="mySlides1">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/polo/do-truoc.png">
+                                </div>
+
+                                <div class="mySlides1">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/polo/do-sau.png">
+                                </div>
+
+                                <div class="mySlides1">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/polo/hong-truoc.png">
+                                </div>
+
+                                <div class="mySlides1">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/polo/hong-sau.png">
+                                </div>
+                                <a class="prev" onclick="plusSlides1(-1)">❮</a>
+                                <a class="next" onclick="plusSlides1(1)">❯</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <img class="demo1 cursor column-img" src="images/cuahang/ss3/polo/do-truoc.png" onclick="currentSlide1(1)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo1 cursor column-img" src="images/cuahang/ss3/polo/do-sau.png" onclick="currentSlide1(2)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo1 cursor column-img" src="images/cuahang/ss3/polo/hong-truoc.png" onclick="currentSlide1(3)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo1 cursor column-img" src="images/cuahang/ss3/polo/hong-sau.png" onclick="currentSlide1(4)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pro-content">
+                                <h1><a href="#allitems">Wanted Polo SS-III</a></h1>
+                                <p class="pro-brand">Thương hiệu: <a href="cua-hang.html">Wanted®</a>
+                                    <span>Tình trạng: <span class="pro-status">Còn hàng</span></span>
+                                </p>
+                                <span class="pro-price">250.000<sup>đ</sup></span>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Màu sắc</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color1" value="ĐỎ" checked=""><label>ĐỎ</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color1" value="HỒNG"><label>HỒNG</label></div>
+                                </div>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Size</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size1" value="S" checked=""><label>S</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size1" value="M"><label>M</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size1" value="L"><label>L</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size1" value="XL"><label>XL</label></div>
+                                </div>
+                                <div>
+                                    <div class="pro-option-number">
+                                        <input type="number" value="1">
+                                    </div>
+                                    <div class="pro-option-buy">
+                                        <button type="button" onclick="alert('Thêm vào giỏ hàng thành công!')">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#allitems">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss3/tee/do-truoc.png">
+                            <a href="#allitems">Wanted Tee SS-III</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <button id="allitems2-btn" type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <!-- The Modal -->
+                    <div id="allitems2-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="slide-show">
+                                <div class="mySlides2">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/tee/do-truoc.png">
+                                </div>
+
+                                <div class="mySlides2">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/tee/do-sau.png">
+                                </div>
+
+                                <div class="mySlides2">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/tee/hong-truoc.png">
+                                </div>
+
+                                <div class="mySlides2">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss3/tee/hong-sau.png">
+                                </div>
+                                <a class="prev" onclick="plusSlides2(-1)">❮</a>
+                                <a class="next" onclick="plusSlides2(1)">❯</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <img class="demo2 cursor column-img" src="images/cuahang/ss3/tee/do-truoc.png" onclick="currentSlide2(1)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo2 cursor column-img" src="images/cuahang/ss3/tee/do-sau.png" onclick="currentSlide2(2)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo2 cursor column-img" src="images/cuahang/ss3/tee/hong-truoc.png" onclick="currentSlide2(3)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo2 cursor column-img" src="images/cuahang/ss3/tee/hong-sau.png" onclick="currentSlide2(4)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pro-content">
+                                <h1><a href="#allitems">Wanted Tee SS-III</a></h1>
+                                <p class="pro-brand">Thương hiệu: <a href="cua-hang.html">Wanted®</a>
+                                    <span>Tình trạng: <span class="pro-status">Còn hàng</span></span>
+                                </p>
+                                <span class="pro-price">250.000<sup>đ</sup></span>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Màu sắc</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color2" value="ĐỎ" checked=""><label>ĐỎ</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color2" value="HỒNG"><label>HỒNG</label></div>
+                                </div>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Size</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size2" value="S" checked=""><label>S</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size2" value="M"><label>M</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size2" value="L"><label>L</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size2" value="XL"><label>XL</label></div>
+                                </div>
+                                <div>
+                                    <div class="pro-option-number">
+                                        <input type="number" value="1">
+                                    </div>
+                                    <div class="pro-option-buy">
+                                        <button type="button" onclick="alert('Thêm vào giỏ hàng thành công!')">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#allitems">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss2/hodie/den-truoc.png">
+                            <a href="#allitems">Wanted Hodie SS-II</a>
+                            <p>350.000<sup>đ</sup></p>
+                            <button id="allitems3-btn" type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <!-- The Modal -->
+                    <div id="allitems3-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="slide-show">
+                                <div class="mySlides3">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/hodie/den-truoc.png">
+                                </div>
+
+                                <div class="mySlides3">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/hodie/den-sau.png">
+                                </div>
+
+                                <div class="mySlides3">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/hodie/trang-truoc.png">
+                                </div>
+
+                                <div class="mySlides3">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/hodie/trang-sau.png">
+                                </div>
+                                <a class="prev" onclick="plusSlides3(-1)">❮</a>
+                                <a class="next" onclick="plusSlides3(1)">❯</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <img class="demo3 cursor column-img" src="images/cuahang/ss2/hodie/den-truoc.png" onclick="currentSlide3(1)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo3 cursor column-img" src="images/cuahang/ss2/hodie/den-sau.png" onclick="currentSlide3(2)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo3 cursor column-img" src="images/cuahang/ss2/hodie/trang-truoc.png" onclick="currentSlide3(3)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo3 cursor column-img" src="images/cuahang/ss2/hodie/trang-sau.png" onclick="currentSlide3(4)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pro-content">
+                                <h1><a href="#allitems">Wanted Hodie SS-II</a></h1>
+                                <p class="pro-brand">Thương hiệu: <a href="cua-hang.html">Wanted®</a>
+                                    <span>Tình trạng: <span class="pro-status">Còn hàng</span></span>
+                                </p>
+                                <span class="pro-price">350.000<sup>đ</sup></span>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Màu sắc</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color3" value="ĐEN" checked=""><label>ĐEN</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color3" value="TRẮNG"><label>TRẮNG</label></div>
+                                </div>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Size</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size3" value="S" checked=""><label>S</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size3" value="M"><label>M</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size3" value="L"><label>L</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size3" value="XL"><label>XL</label></div>
+                                </div>
+                                <div>
+                                    <div class="pro-option-number">
+                                        <input type="number" value="1">
+                                    </div>
+                                    <div class="pro-option-buy">
+                                        <button type="button" onclick="alert('Thêm vào giỏ hàng thành công!')">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#allitems">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss2/tee/trang-truoc.png">
+                            <a href="#allitems">Wanted Tee SS-II</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <button id="allitems4-btn" type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <!-- The Modal -->
+                    <div id="allitems4-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="slide-show">
+                                <div class="mySlides4">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/tee/den-truoc.png">
+                                </div>
+                                <div class="mySlides4">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/tee/den-sau.png">
+                                </div>
+                                <div class="mySlides4">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/tee/trang-truoc.png">
+                                </div>
+                                <div class="mySlides4">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss2/tee/trang-sau.png">
+                                </div>
+                                <a class="prev" onclick="plusSlides4(-1)">❮</a>
+                                <a class="next" onclick="plusSlides4(1)">❯</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <img class="demo4 cursor column-img" src="images/cuahang/ss2/tee/den-truoc.png" onclick="currentSlide4(1)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo4 cursor column-img" src="images/cuahang/ss2/tee/den-sau.png" onclick="currentSlide4(2)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo4 cursor column-img" src="images/cuahang/ss2/tee/trang-truoc.png" onclick="currentSlide4(3)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo4 cursor column-img" src="images/cuahang/ss2/tee/trang-sau.png" onclick="currentSlide4(4)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pro-content">
+                                <h1><a href="#allitems">Wanted Tee SS-II</a></h1>
+                                <p class="pro-brand">Thương hiệu: <a href="cua-hang.html">Wanted®</a>
+                                    <span>Tình trạng: <span class="pro-status">Còn hàng</span></span>
+                                </p>
+                                <span class="pro-price">250.000<sup>đ</sup></span>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Màu sắc</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color4" value="ĐEN" checked=""><label>ĐEN</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color4" value="TRẮNG"><label>TRẮNG</label></div>
+                                </div>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Size</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size4" value="S" checked=""><label>S</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size4" value="M"><label>M</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size4" value="L"><label>L</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size4" value="XL"><label>XL</label></div>
+                                </div>
+                                <div>
+                                    <div class="pro-option-number">
+                                        <input type="number" value="1">
+                                    </div>
+                                    <div class="pro-option-buy">
+                                        <button type="button" onclick="alert('Thêm vào giỏ hàng thành công!')">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#allitems">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss1/den-truoc.png">
+                            <a href="#allitems">Wanted Tee SS-I</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <div id="season1"></div>
+                            <button id="allitems5-btn" type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <!-- The Modal -->
+                    <div id="allitems5-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="slide-show">
+                                <div class="mySlides5">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss1/den-truoc.png">
+                                </div>
+                                <div class="mySlides5">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss1/den-sau.png">
+                                </div>
+                                <div class="mySlides5">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss1/trang-truoc.png">
+                                </div>
+                                <div class="mySlides5">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img class="slide-img" src="images/cuahang/ss1/trang-sau.png">
+                                </div>
+                                <a class="prev" onclick="plusSlides5(-1)">❮</a>
+                                <a class="next" onclick="plusSlides5(1)">❯</a>
+                                <div class="row">
+                                    <div class="column">
+                                        <img class="demo5 cursor column-img" src="images/cuahang/ss1/den-truoc.png" onclick="currentSlide5(1)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo5 cursor column-img" src="images/cuahang/ss1/den-sau.png" onclick="currentSlide5(2)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo5 cursor column-img" src="images/cuahang/ss1/trang-truoc.png" onclick="currentSlide5(3)">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo5 cursor column-img" src="images/cuahang/ss1/trang-sau.png" onclick="currentSlide5(4)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pro-content">
+                                <h1><a href="#allitems">Wanted Tee SS-I</a></h1>
+                                <p class="pro-brand">Thương hiệu: <a href="cua-hang.html">Wanted®</a>
+                                    <span>Tình trạng: <span class="pro-status">Còn hàng</span></span>
+                                </p>
+                                <span class="pro-price">250.000<sup>đ</sup></span>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Màu sắc</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color5" value="ĐEN" checked=""><label>ĐEN</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-color5" value="TRẮNG"><label>TRẮNG</label></div>
+                                </div>
+                                <div class="pro-option" data-option-index="0">
+                                    <div class="pro-option-title">Size</div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size5" value="S" checked=""><label>S</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size5" value="M"><label>M</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size5" value="L"><label>L</label></div>
+                                    <div class="pro-option-name"><input type="radio" name="option-size5" value="XL"><label>XL</label></div>
+                                </div>
+                                <div>
+                                    <div class="pro-option-number">
+                                        <input type="number" value="1">
+                                    </div>
+                                    <div class="pro-option-buy">
+                                        <button type="button" onclick="alert('Thêm vào giỏ hàng thành công!')">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </ul>
+                <div class="cuahang-title">
+                    <a href="#season1">
+                        <h3>Season I</h3>
+                    </a>
+                </div>
+                <ul class="pro-ul">
+                    <li>
+                        <div class="pro-box">
+                            <a href="#season1">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss1/den-truoc.png">
+                            <a href="#season1">Wanted Tee SS-I</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <div id="season2"></div>
+                            <button type="button">Thông tin</button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="cuahang-title">
+                    <a href="#season2">
+                        <h3>Season II</h3>
+                    </a>
+                </div>
+                <ul class="pro-ul">
+                    <li>
+                        <div class="pro-box">
+                            <a href="#season2">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss2/hodie/den-truoc.png">
+                            <a href="#season2">Wanted Hodie SS-II</a>
+                            <p>350.000<sup>đ</sup></p>
+                            <button type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#season2">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss2/tee/trang-truoc.png">
+                            <a href="#season2">Wanted Tee SS-II</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <div id="season3"></div>
+                            <button type="button">Thông tin</button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="cuahang-title">
+                    <a href="#season3">
+                        <h3>Season III</h3>
+                    </a>
+                </div>
+                <ul class="pro-ul">
+                    <li>
+                        <div class="pro-box">
+                            <a href="#season3">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss3/hodie/do-truoc.png">
+                            <a href="#season3">Wanted Hodie SS-III</a>
+                            <p>350.000<sup>đ</sup></p>
+                            <button id="season3-btn-hodie-ss-iii" type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#season3">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss3/polo/hong-truoc.png">
+                            <a href="#season3">Wanted Polo SS-III</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <button type="button">Thông tin</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-box">
+                            <a href="#season3">
+                                <div class="hover-img"></div>
+                            </a>
+                            <img src="images/cuahang/ss3/tee/do-truoc.png">
+                            <a href="#season3">Wanted Tee SS-III</a>
+                            <p>250.000<sup>đ</sup></p>
+                            <button type="button">Thông tin</button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="space" id="huongdan"></div>
+                <div class="content-1">
+                    <div id="content-huongdan">
+                        <a href="#huongdan">
+                            <h3>Hướng dẫn</h3>
+                        </a>
+                    </div>
+                    <p>- Mọi thông tin liên quan sản phẩm,chọn size, đặt hàng, thanh toán, vận chuyển,... Xin vui lòng liên hệ:</p>
+                    <ul>
+                        <li>Tên ingame: [T]oxin</li>
+                        <li>Hotline: 090-xxx-xnxx</li>
+                        <li>Facebook: <a target="_blank" href="https://www.facebook.com/ToxinBE/">Hoàng Tiến</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="images/cuahang.png" alt="su kien solo">
+            <p>Copyright© 2020 ToxinBE</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="js/topbutton.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            //Top Button
+            $.topbutton({
+                html: "<i></i>", //String
+                css: "width:50px; height:50px; background-image: url(../images/backtotop.png);color:#ededed; border: none; font-size:18px;border-radius:0px;", //String
+                scrollAndShow: true, //Boolean
+                scrollSpeed: 750 //Number
+            });
+
+        });
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("header-menu");
+            if (x.className === "menu-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu-bar";
+            }
+        }
+    </script>
+    <script>
+        //modal
+        var modal0 = document.getElementById("allitems0-modal");
+        var btn0 = document.getElementById("allitems0-btn");
+        var span0 = document.getElementsByClassName("close")[0];
+        btn0.onclick = function() {
+            modal0.style.display = "block";
+        }
+        span0.onclick = function() {
+            modal0.style.display = "none";
+        }
+        modal0.onclick = function(event) {
+                if (event.target == modal0) {
+                    modal0.style.display = "none";
+                }
+            }
+            //slide
+        var slideIndex = 1;
+        showSlides0(slideIndex);
+
+        function plusSlides0(n) {
+            showSlides0(slideIndex += n);
+        }
+
+        function currentSlide0(n) {
+            showSlides0(slideIndex = n);
+        }
+
+        function showSlides0(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides0");
+            var dots = document.getElementsByClassName("demo0");
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script>
+        // modal
+        var modal1 = document.getElementById("allitems1-modal");
+        var btn1 = document.getElementById("allitems1-btn");
+        var span1 = document.getElementsByClassName("close")[1];
+        btn1.onclick = function() {
+            modal1.style.display = "block";
+        }
+        span1.onclick = function() {
+            modal1.style.display = "none";
+        }
+        modal1.onclick = function(event) {
+                if (event.target == modal1) {
+                    modal1.style.display = "none";
+                }
+            }
+            // slide
+        var slideIndex = 1;
+        showSlides1(slideIndex);
+
+        function plusSlides1(n) {
+            showSlides1(slideIndex += n);
+        }
+
+        function currentSlide1(n) {
+            showSlides1(slideIndex = n);
+        }
+
+        function showSlides1(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides1");
+            var dots = document.getElementsByClassName("demo1");
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script>
+        //modal
+        var modal2 = document.getElementById("allitems2-modal");
+        var btn2 = document.getElementById("allitems2-btn");
+        var span2 = document.getElementsByClassName("close")[2];
+        btn2.onclick = function() {
+            modal2.style.display = "block";
+        }
+        span2.onclick = function() {
+            modal2.style.display = "none";
+        }
+        modal2.onclick = function(event2) {
+                if (event2.target == modal2) {
+                    modal2.style.display = "none";
+                }
+            }
+            //slide
+        var slideIndex = 1;
+        showSlides2(slideIndex);
+
+        function plusSlides2(n) {
+            showSlides2(slideIndex += n);
+        }
+
+        function currentSlide2(n) {
+            showSlides2(slideIndex = n);
+        }
+
+        function showSlides2(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides2");
+            var dots = document.getElementsByClassName("demo2");
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script>
+        //modal
+        var modal3 = document.getElementById("allitems3-modal");
+        var btn3 = document.getElementById("allitems3-btn");
+        var span3 = document.getElementsByClassName("close")[3];
+        btn3.onclick = function() {
+            modal3.style.display = "block";
+        }
+        span3.onclick = function() {
+            modal3.style.display = "none";
+        }
+        modal3.onclick = function(event) {
+                if (event.target == modal3) {
+                    modal3.style.display = "none";
+                }
+            }
+            //slide
+        var slideIndex = 1;
+        showSlides3(slideIndex);
+
+        function plusSlides3(n) {
+            showSlides3(slideIndex += n);
+        }
+
+        function currentSlide3(n) {
+            showSlides3(slideIndex = n);
+        }
+
+        function showSlides3(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides3");
+            var dots = document.getElementsByClassName("demo3");
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script>
+        //modal
+        var modal4 = document.getElementById("allitems4-modal");
+        var btn4 = document.getElementById("allitems4-btn");
+        var span4 = document.getElementsByClassName("close")[4];
+        btn4.onclick = function() {
+            modal4.style.display = "block";
+        }
+        span4.onclick = function() {
+            modal4.style.display = "none";
+        }
+        modal4.onclick = function(event) {
+                if (event.target == modal4) {
+                    modal4.style.display = "none";
+                }
+            }
+            //slide
+        var slideIndex = 1;
+        showSlides4(slideIndex);
+
+        function plusSlides4(n) {
+            showSlides4(slideIndex += n);
+        }
+
+        function currentSlide4(n) {
+            showSlides4(slideIndex = n);
+        }
+
+        function showSlides4(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides4");
+            var dots = document.getElementsByClassName("demo4");
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script>
+        //modal
+        var modal5 = document.getElementById("allitems5-modal");
+        var btn5 = document.getElementById("allitems5-btn");
+        var span5 = document.getElementsByClassName("close")[5];
+        btn5.onclick = function() {
+            modal5.style.display = "block";
+        }
+        span5.onclick = function() {
+            modal5.style.display = "none";
+        }
+        modal5.onclick = function(event) {
+                if (event.target == modal5) {
+                    modal5.style.display = "none";
+                }
+            }
+            //slide
+        var slideIndex = 1;
+        showSlides5(slideIndex);
+
+        function plusSlides5(n) {
+            showSlides5(slideIndex += n);
+        }
+
+        function currentSlide5(n) {
+            showSlides5(slideIndex = n);
+        }
+
+        function showSlides5(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides5");
+            var dots = document.getElementsByClassName("demo5");
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
